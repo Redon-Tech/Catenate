@@ -7,7 +7,7 @@ info:
   description: "A dark theme inspired by bloom.host's colors and the Recolor theme"
   flags: ""
   version: "v2.0.0-beta"
-  target: "alpha-SLX"
+  target: "beta-A428-2"
   author: "JasonHorkles"
   icon: "assets/icon.jpg"
   website: "https://github.com/JasonHorkles/darkenate"
