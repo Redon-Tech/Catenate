@@ -1,5 +1,5 @@
 :root {
-  --background-color: #11111c;
+  --background-color: #181821;
   --item-color: #1f212f;
   --item-secondary-color: #2b2c39;
   --danger-zone-color: #331f2e;
@@ -22,15 +22,16 @@ body {
 }
 
 
-/* Header / footer */
+/* Header */
 
 nav.navbar.navbar-static-top,
 a.logo {
-  background-color: #1f2129 !important;
+  background-color: #272931 !important;
 }
 
 
 /* Footer */
+
 footer.main-footer {
   border-width: 0px;
   background-color: var(--background-color);
@@ -41,6 +42,19 @@ footer.main-footer {
 
 aside.main-sidebar {
   background-color: #1f2129 !important;
+  box-shadow: none !important;
+}
+
+ul.sidebar-menu>li.header {
+  background: transparent !important;
+  color: lightgray !important;
+  margin-top: 2rem;
+}
+
+ul.sidebar-menu>li.active>a,
+ul.sidebar-menu>li:hover>a {
+  border-radius: 0 8px 8px 0;
+  margin-right: 0.5rem;
 }
 
 
@@ -74,8 +88,26 @@ aside.main-sidebar {
 
 div.box,
 div.box-header.with-border,
-button.btn {
+div.nav-tabs-custom,
+div.nav-tabs-custom>.nav-tabs>li.active>a,
+button,
+a.btn,
+div.alert-success,
+.form-control {
   border-radius: var(--border-radii) !important;
+}
+
+label.btn {
+  border-radius: var(--border-radii);
+}
+
+code {
+  border-radius: 5px;
+}
+
+div.box-body {
+  border-bottom-left-radius: var(--border-radii);
+  border-bottom-right-radius: var(--border-radii);
 }
 
 
@@ -89,4 +121,66 @@ div.box-header.with-border {
 div.box {
   border-top-color: transparent !important;
   background: var(--item-secondary-color);
+}
+
+div.nav-tabs-custom>.nav-tabs>li {
+  border-top: 0;
+}
+
+
+/* Remove bottom bars */
+
+div.box-footer {
+  border-top: 0;
+  background-color: transparent;
+}
+
+
+/* Change horizontal rule color */
+
+hr {
+  margin-bottom: 40px;
+  width: calc(100% - 1rem);
+  border-top: 1px solid var(--item-color);
+}
+
+
+/* Alert modal */
+
+div.sweet-alert {
+  background-color: var(--danger-zone-color);
+  border-radius: var(--border-radii);
+}
+
+div.sweet-alert h2,
+div.sweet-alert p {
+  color: lightgray;
+}
+
+div.sweet-alert button {
+  box-shadow: none !important;
+}
+
+div.sweet-alert button.cancel {
+  background-color: #5e915e;
+}
+
+div.sweet-alert button.cancel:hover,
+div.sweet-alert button.cancel:active {
+  background-color: #598359;
+}
+
+div.sweet-alert div.sa-icon.sa-success::before, div.sweet-alert div.sa-icon.sa-success::after {
+  background: transparent;
+}
+
+div.sweet-alert div.sa-icon.sa-success div.sa-fix {
+  background-color: transparent;
+}
+
+
+/* Fix table sizing */
+
+table.table>tbody>tr>td {
+  padding: 1rem;
 }
