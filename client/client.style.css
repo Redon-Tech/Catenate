@@ -44,6 +44,19 @@ div.SubNavigation-sc-lfuaoi-0.jZPsWO {
 }
 
 
+/* Border radii */
+
+div.style-module_2Vp6MaXq,
+div.style-module_2XbmHEcn,
+div.style-module_1DtraXMW,
+button.style-module_4LBM1DKx,
+button.Button__ButtonStyle-sc-1qu1gou-0.dLAOsI,
+div.haunnZ,
+input.ZkNLd:not([type="checkbox"]):not([type="radio"]) {
+  border-radius: var(--border-radii) !important;
+}
+
+
 /* Login page "modal" */
 
 div.LoginFormContainer___StyledDiv-sc-cyh04c-3.cxOtYP {
@@ -205,18 +218,6 @@ div.style-module_OFB5PMuf.bg-gray-700,
 div.style-module_OFB5PMuf.bg-yellow-500,
 div.style-module_OFB5PMuf.bg-red-500 {
   background-color: initial;
-}
-
-
-/* Border radii */
-
-div.style-module_2Vp6MaXq,
-div.style-module_2XbmHEcn,
-div.style-module_1DtraXMW,
-button.style-module_4LBM1DKx,
-button.Button__ButtonStyle-sc-1qu1gou-0.dLAOsI,
-div.haunnZ {
-  border-radius: var(--border-radii) !important;
 }
 
 
@@ -415,4 +416,12 @@ div.py-4 {
 div.bg-gray-700:has(> div.py-4),
 div.py-3 {
   background-color: transparent;
+}
+
+
+/* Account settings */
+
+div.iGOcRf {
+  border-radius: var(--border-radii);
+  background-color: var(--item-color);
 }
