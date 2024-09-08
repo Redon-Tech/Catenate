@@ -6,8 +6,8 @@ info:
   identifier: "darkenate"
   description: "A dark theme inspired by bloom.host's colors and the Recolor theme"
   flags: ""
-  version: "v1.1.4"
-  target: "alpha-SLX"
+  version: "v2.0.0-beta"
+  target: "beta-A428-2"
   author: "JasonHorkles"
   icon: "assets/icon.jpg"
   website: "https://github.com/JasonHorkles/darkenate"
@@ -15,7 +15,7 @@ info:
 admin:
   view: "admin/view.blade.php"
   controller: ""
-  css: ""
+  css: "admin/admin.style.css"
   wrapper: ""
 
 dashboard:

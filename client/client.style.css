@@ -44,14 +44,28 @@ div.SubNavigation-sc-lfuaoi-0.jZPsWO {
 }
 
 
-/* Login page */
+/* Login page "modal" */
 
 div.LoginFormContainer___StyledDiv-sc-cyh04c-3.cxOtYP {
   background-color: #1f2033;
+  border-radius: var(--border-radii);
 }
+
+
+/* Login page input areas */
 
 label.Label-sc-g780ms-0.dqkKHi {
   color: lightgray;
+}
+
+input.Input-sc-19rce1w-0.fFYzlR {
+  border-radius: var(--border-radii) !important;
+}
+
+
+/* Login page error banner */
+div.icGkbh {
+  border-radius: var(--border-radii);
 }
 
 
@@ -59,23 +73,10 @@ label.Label-sc-g780ms-0.dqkKHi {
 
 ::-webkit-scrollbar {
   background: var(--background-color) !important;
-  border-radius: 0;
 }
 
 .xterm-viewport::-webkit-scrollbar {
   background: #131a20 !important;
-}
-
-::-webkit-scrollbar-thumb {
-  border-width: 0px 0.3rem;
-  box-shadow: rgb(72 98 124 / 0%) 0 0 0 1px inset, rgb(64 79 92) 0 0 0 4px inset;
-}
-
-
-/* Scrollbar hover */
-
-::-webkit-scrollbar-thumb:hover {
-  box-shadow: rgb(0 0 0 / 0%) 0 0 0 0 inset, rgb(88 106 122) 0 0 0 4px inset;
 }
 
 
@@ -89,11 +90,10 @@ label.Label-sc-g780ms-0.dqkKHi {
 }
 
 
-/* Server IP height & spacing */
+/* Server IP height */
 
 p.ServerRow___StyledP3-sc-1ibsw91-9.IQTcj {
   line-height: 3rem;
-  white-space: nowrap;
 }
 
 
@@ -213,7 +213,9 @@ div.style-module_OFB5PMuf.bg-red-500 {
 div.style-module_2Vp6MaXq,
 div.style-module_2XbmHEcn,
 div.style-module_1DtraXMW,
-button.style-module_4LBM1DKx {
+button.style-module_4LBM1DKx,
+button.Button__ButtonStyle-sc-1qu1gou-0.dLAOsI,
+div.haunnZ {
   border-radius: var(--border-radii) !important;
 }
 
