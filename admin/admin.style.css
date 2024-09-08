@@ -91,23 +91,66 @@ div.box-header.with-border,
 div.nav-tabs-custom,
 div.nav-tabs-custom>.nav-tabs>li.active>a,
 button,
-a.btn,
+div.alert-info,
+div.alert-warning,
+div.alert-danger,
 div.alert-success,
-.form-control {
+pre,
+li.select2-selection__choice,
+ul,
+div.info-box,
+div.small-box,
+input.form-control.pull-right {
   border-radius: var(--border-radii) !important;
 }
 
-label.btn {
+/* Not important */
+label.btn,
+input.btn,
+a.btn,
+span.select2-selection.select2-selection--multiple,
+select.form-control,
+textarea.form-control,
+input.form-control {
   border-radius: var(--border-radii);
+}
+
+@media (max-width:991px) {
+  section.content-header>ol.breadcrumb {
+    border-radius: var(--border-radii);
+  }
+}
+
+/* Bottom radii */
+div.box-body,
+a.small-box-footer {
+  border-bottom-left-radius: var(--border-radii);
+  border-bottom-right-radius: var(--border-radii);
+}
+
+/* Right radii 0 */
+div.input-group>input.form-control {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* Swap database radius sides */
+div.input-group>input.form-control#pDatabaseName {
+  border-radius: 0 var(--border-radii) var(--border-radii) 0;
+}
+
+label[for="pDatabaseName"]+div.input-group>span.input-group-addon {
+  border-radius: var(--border-radii) 0 0 var(--border-radii) !important;
+}
+
+/* Right radii */
+div.input-group span.input-group-addon {
+  border-bottom-right-radius: var(--border-radii);
+  border-top-right-radius: var(--border-radii);
 }
 
 code {
   border-radius: 5px;
-}
-
-div.box-body {
-  border-bottom-left-radius: var(--border-radii);
-  border-bottom-right-radius: var(--border-radii);
 }
 
 
@@ -116,6 +159,13 @@ div.box-body {
 div.box-header.with-border {
   background-color: transparent;
   border-bottom: none !important;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  div.box-body.table-responsive.no-padding {
+    border: none;
+  }
 }
 
 div.box {
@@ -220,4 +270,11 @@ span.select2-container--default li.select2-results__option[aria-selected=true]:h
 
 button.close {
   color: white;
+}
+
+
+/* Fix mobile search */
+
+input.form-control.pull-right {
+  min-width: max-content;
 }
