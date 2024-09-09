@@ -17,4 +17,4 @@ If you enjoy this extension and you make money from running a host, please consi
 
 # Admin
 ![image](https://github.com/user-attachments/assets/0d1d73bd-060a-4fee-b423-2f50c8814d75)
-![image](https://github.com/user-attachments/assets/a1d66527-9e77-4959-9544-dfa82a096590)
+![image](https://github.com/user-attachments/assets/7e6427bc-599c-46ae-8ba2-7404d1791e2d)
