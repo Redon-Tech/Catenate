@@ -71,7 +71,8 @@ label.Label-sc-g780ms-0.dqkKHi {
   color: lightgray;
 }
 
-input.Input-sc-19rce1w-0.fFYzlR {
+input.Input-sc-19rce1w-0.fFYzlR,
+input.floJYL:not([type="checkbox"]):not([type="radio"]) {
   border-radius: var(--border-radii) !important;
 }
 
@@ -399,7 +400,6 @@ input.jqTCDz:not([type="checkbox"]):not([type="radio"]) {
 
 /* Activity */
 
-div.py-4,
 div.text-gray-200,
 a.style-module_Yp7-2Fw-,
 div.style-module_1RnhIT0w,
@@ -418,6 +418,7 @@ div.border-gray-800 {
 
 div.py-4 {
   margin: 0.5rem 0;
+  border-radius: var(--border-radii) !important;
 }
 
 div.bg-gray-700:has(> div.py-4),
