@@ -96,10 +96,10 @@ div.icGkbh {
 
 /* Fix secondary header active color */
 
-.jZPsWO>div>a:active,
-.jZPsWO>div>div:active,
-.jZPsWO>div>a.active,
-.jZPsWO>div>div.active {
+.jZPsWO > div > a:active,
+.jZPsWO > div > div:active,
+.jZPsWO > div > a.active,
+.jZPsWO > div > div.active {
   box-shadow: rgb(8, 145, 178) 0px -3px 0px -1px inset !important;
 }
 
@@ -116,7 +116,7 @@ div.Modal__ModalContainer-sc-9vzni8-1.kKspuO {
 }
 
 /* Close icon */
-div.kKspuO>div.close-icon {
+div.kKspuO > div.close-icon {
   top: 0.25rem;
   right: 0.25rem;
   opacity: 0.75;
