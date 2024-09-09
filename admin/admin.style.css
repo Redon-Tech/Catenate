@@ -149,6 +149,12 @@ div.input-group span.input-group-addon {
   border-top-right-radius: var(--border-radii);
 }
 
+/* Left radii */
+span.info-box-icon {
+  border-bottom-left-radius: var(--border-radii);
+  border-top-left-radius: var(--border-radii);
+}
+
 code {
   border-radius: 5px;
 }
