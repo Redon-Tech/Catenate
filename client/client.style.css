@@ -104,10 +104,27 @@ div.icGkbh {
 }
 
 
-/* Modal radius fix */
+/* Modal fixes */
 
 div.ekHIsr {
   overflow-y: unset;
+}
+
+/* Schedule height */
+div.Modal__ModalContainer-sc-9vzni8-1.kKspuO {
+  margin-top: 5%;
+}
+
+/* Close icon */
+div.kKspuO>div.close-icon {
+  top: 0.25rem;
+  right: 0.25rem;
+  opacity: 0.75;
+  color: white;
+}
+
+label.eDArzA {
+  margin-bottom: 1rem;
 }
 
 
@@ -324,6 +341,15 @@ button.style-module_4LBM1DKx.style-module_2RJbSnp6 {
 
 button.style-module_4LBM1DKx.style-module_2RJbSnp6:hover {
   background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+}
+
+/* Toggles in edit modal */
+div.fhEpAC,
+div.jyDDEO,
+div.ueIjC {
+  background-color: var(--item-color);
+  border-width: 0;
+  border-radius: var(--border-radii);
 }
 
 
