@@ -2,15 +2,15 @@
 # For documentation about conf.yml, refer to ptero.shop/dev/conf.
 
 info:
-  name: "Darkenate"
-  identifier: "darkenate"
-  description: "A dark theme inspired by bloom.host's colors and the Recolor theme"
+  name: "Catenate"
+  identifier: "catenate"
+  description: " A fork of darkenate by JasonHorkles with Catppuccin colors."
   flags: ""
   version: "v2.0.2"
   target: "beta-A428-2"
-  author: "JasonHorkles"
-  icon: "assets/icon.jpg"
-  website: "https://github.com/JasonHorkles/darkenate"
+  author: "Redon Tech / JasonHorkles"
+  icon: "assets/icon.png"
+  website: "https://github.com/Redon-Tech/Catenate"
 
 admin:
   view: "admin/view.blade.php"
