@@ -1,8 +1,10 @@
+@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
+
 :root {
-  --background-color: #181821;
-  --item-color: #1f212f;
-  --item-secondary-color: #2b2c39;
-  --danger-zone-color: #331f2e;
+  --background-color: var(--ctp-mocha-base);
+  --item-color: var(--ctp-mocha-mantle);
+  --item-secondary-color: var(--ctp-mocha-crust);
+  --danger-zone-color: var(--ctp-mocha-pink);
   --border-radii: 10px;
 }
 
@@ -26,7 +28,7 @@ body {
 
 nav.navbar.navbar-static-top,
 a.logo {
-  background-color: #272931 !important;
+  background-color: var(--ctp-mocha-mantle) !important;
 }
 
 
@@ -41,7 +43,7 @@ footer.main-footer {
 /* Sidebar */
 
 aside.main-sidebar {
-  background-color: #1f2129 !important;
+  background-color: var(--ctp-mocha-crust) !important;
   box-shadow: none !important;
 }
 
@@ -218,12 +220,12 @@ div.sweet-alert button {
 }
 
 div.sweet-alert button.cancel {
-  background-color: #5e915e;
+  background-color: var(--ctp-mocha-green);
 }
 
 div.sweet-alert button.cancel:hover,
 div.sweet-alert button.cancel:active {
-  background-color: #598359;
+  background-color: var(--ctp-mocha-green);
 }
 
 div.sweet-alert div.sa-icon.sa-success::before,
@@ -252,7 +254,7 @@ div.modal-footer {
 }
 
 p.text-danger {
-  color: #db7669;
+  color: var(--ctp-mocha-red);
 }
 
 div.modal-content {
