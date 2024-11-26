@@ -361,3 +361,129 @@ input.form-control {
 .form-control:active {
   border-color: var(--ctp-mocha-teal) !important;
 }
+
+/* Ace Editor */
+
+.ace-chrome .ace_gutter {
+  background: var(--ctp-mocha-mantle) !important;
+  color: var(--ctp-mocha-overlay1) !important;
+}
+.ace-chrome .ace_print-margin {
+  width: 1px;
+  background: var(--ctp-mocha-text);
+}
+.ace-chrome {
+  background-color: var(--ctp-mocha-base) !important;
+  color: var(--ctp-mocha-text) !important;
+}
+.ace-chrome .ace_cursor {
+  color: var(--ctp-mocha-rosewater) !important;
+}
+.ace-chrome .ace_marker-layer .ace_selection {
+  background: var(--ctp-mocha-lavender);
+}
+.ace-chrome.ace_multiselect .ace_selection.ace_start {
+  box-shadow: 0 0 3px 0px #0f1419;
+  border-radius: 2px;
+}
+.ace-chrome .ace_marker-layer .ace_step {
+  background: var(--ctp-mocha-green);
+}
+.ace-chrome .ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid var(--ctp-mocha-red);
+}
+.ace-chrome .ace_marker-layer .ace_active-line {
+  background: rgba(var(--ctp-mocha-text-rgb), 0.1);
+}
+.ace-chrome .ace_gutter-active-line {
+  background-color: var(--ctp-mocha-crust) !important;
+}
+.ace-chrome .ace_marker-layer .ace_selected-word {
+  border: 1px solid var(--ctp-mocha-text);
+}
+.ace-chrome .ace_fold {
+  background-color: var(--ctp-mocha-peach) !important;
+  border-color: var(--ctp-mocha-overlay2) !important;
+}
+.ace-chrome .ace_keyword {
+  color: var(--ctp-mocha-mauve) !important;
+}
+.ace-chrome .ace_keyword.ace_operator {
+  color: var(--ctp-mocha-sky) !important;
+}
+.ace-chrome .ace_constant.ace_language {
+  color: var(--ctp-mocha-red) !important;
+}
+.ace-chrome .ace_constant.ace_numeric {
+  color: var(--ctp-mocha-peach) !important;
+}
+.ace-chrome .ace_constant.ace_character {
+  color: var(--ctp-mocha-peach) !important;
+}
+.ace-chrome .ace_constant.ace_character.ace_escape {
+  color: var(--ctp-mocha-pink) !important;
+}
+.ace-chrome .ace_constant.ace_other {
+  color: var(--ctp-mocha-peach) !important;
+}
+.ace-chrome .ace_support.ace_function {
+  color: var(--ctp-mocha-blue) !important;
+}
+.ace-chrome .ace_support.ace_constant {
+  font-style: italic;
+  color: var(--ctp-mocha-peach) !important;
+}
+.ace-chrome .ace_support.ace_class {
+  font-style: italic;
+  color: var(--ctp-mocha-yellow) !important;
+}
+.ace-chrome .ace_support.ace_type {
+  font-style: italic;
+  color: var(--ctp-mocha-yellow) !important;
+}
+.ace-chrome .ace_storage {
+  color: var(--ctp-mocha-yellow) !important;
+}
+.ace-chrome .ace_storage.ace_type {
+  color: var(--ctp-mocha-yellow) !important;
+}
+.ace-chrome .ace_invalid {
+  color: var(--ctp-mocha-red) !important;
+}
+.ace-chrome .ace_invalid.ace_deprecated {
+  color: var(--ctp-mocha-text) !important;
+  background-color: var(--ctp-mocha-yellow) !important;
+}
+.ace-chrome .ace_string {
+  color: var(--ctp-mocha-green) !important;
+}
+.ace-chrome .ace_string.ace_regexp {
+  color: var(--ctp-mocha-green) !important;
+}
+.ace-chrome .ace_comment {
+  font-style: italic;
+  color: var(--ctp-mocha-overlay2) !important;
+}
+.ace-chrome .ace_variable {
+  color: var(--ctp-mocha-text) !important;
+}
+.ace-chrome .ace_variable.ace_language {
+  font-style: italic;
+  color: var(--ctp-mocha-red) !important;
+}
+.ace-chrome .ace_variable.ace_parameter {
+  color: var(--ctp-mocha-maroon) !important;
+}
+.ace-chrome .ace_entity.ace_other.ace_attribute-name {
+  color: var(--ctp-mocha-yellow) !important;
+}
+.ace-chrome .ace_entity.ace_name.ace_function {
+  color: var(--ctp-mocha-blue) !important;
+}
+.ace-chrome .ace_entity.ace_name.ace_tag {
+  color: var(--ctp-mocha-teal) !important;
+}
+.ace-chrome .ace_paren {
+  color: var(--ctp-mocha-maroon) !important;
+}

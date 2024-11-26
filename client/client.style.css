@@ -460,3 +460,139 @@ div.style-module_1n_DiqmT.style-module_1AMtO9lt, div.relative.style-module_1AMtO
 .style-module_3TDo--Tn:active {
   border-color: var(--ctp-mocha-teal) !important;
 }
+
+/* Code editor */
+/* Below Code is provided from https://github.com/catppuccin/codemirror/blob/main/themes/mocha.css */
+/* MIT License
+
+Copyright (c) 2022 Catppuccin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ */
+
+div.cm-s-ayu-mirage.CodeMirror {
+  --bg0: var(--ctp-mocha-base);
+	--bg1: var(--ctp-mocha-overlay1);
+	--bg4: var(--ctp-mocha-overlay0);
+	--fg: var(--ctp-mocha-text);
+	--fg3: var(--ctp-mocha-subtext0);
+	--gray: var(--ctp-mocha-subtext1);
+	--blue: var(--ctp-mocha-blue);
+	--yellow: var(--ctp-mocha-yellow);
+	--aqua: var(--ctp-mocha-blue);
+	--orange: var(--ctp-mocha-peach);
+
+	--primary-bg: var(--ctp-mocha-mantle);
+	--current-line: var(--ctp-mocha-surface0);
+	--selection: var(--ctp-mocha-surface2);
+	--atom: var(--ctp-mocha-lavender);
+	--cursor: var(--ctp-mocha-overlay1);
+	--keyword: var(--ctp-mocha-red);
+	--operator: var(--ctp-mocha-sky);
+	--number: var(--ctp-mocha-peach);
+	--definition: var(--ctp-mocha-blue);
+	--string: var(--ctp-mocha-green);
+}
+
+.cm-s-ayu-mirage.CodeMirror,
+.cm-s-ayu-mirage .CodeMirror-gutters {
+  background-color: var(--primary-bg) !important;
+  color: var(--fg3) !important;
+}
+.cm-s-ayu-mirage .CodeMirror-gutters {
+  background: var(--primary-bg);
+  border-right: 0px;
+}
+.cm-s-ayu-mirage .CodeMirror-linenumber {
+  color: var(--bg4) !important;
+}
+.cm-s-ayu-mirage .CodeMirror-cursor {
+  border-left: 1px solid var(--fg);
+}
+.cm-s-ayu-mirage.cm-fat-cursor .CodeMirror-cursor {
+  background-color: var(--cursor) !important;
+}
+.cm-s-ayu-mirage .cm-animate-fat-cursor {
+  background-color: var(--cursor) !important;
+}
+.cm-s-ayu-mirage div.CodeMirror-selected {
+  background: var(--selection);
+}
+.cm-s-ayu-mirage span.cm-meta {
+  color: var(--blue) !important;
+}
+.cm-s-ayu-mirage span.cm-comment {
+  color: var(--gray) !important;
+}
+.cm-s-ayu-mirage span.cm-number {
+  color: var(--number) !important;
+}
+.cm-s-ayu-mirage span.cm-atom {
+  color: var(--atom) !important;
+}
+.cm-s-ayu-mirage span.cm-keyword {
+  color: var(--keyword) !important;
+}
+.cm-s-ayu-mirage span.cm-variable {
+  color: var(--fg) !important;
+}
+.cm-s-ayu-mirage span.cm-variable-2 {
+  color: var(--fg) !important;
+}
+.cm-s-ayu-mirage span.cm-variable-3,
+.cm-s-ayu-mirage .cm-s-gruvbox-dark span.cm-type {
+  color: var(--yellow) !important;
+}
+.cm-s-ayu-mirage span.cm-operator {
+  color: var(--operator) !important;
+}
+.cm-s-ayu-mirage span.cm-callee {
+  color: var(--fg) !important;
+}
+.cm-s-ayu-mirage span.cm-def {
+  color: var(--definition) !important;
+}
+.cm-s-ayu-mirage span.cm-property {
+  color: var(--fg) !important;
+}
+.cm-s-ayu-mirage span.cm-string {
+  color: var(--string) !important;
+}
+.cm-s-ayu-mirage span.cm-string-2 {
+  color: var(--aqua) !important;
+}
+.cm-s-ayu-mirage span.cm-qualifier {
+  color: var(--aqua) !important;
+}
+.cm-s-ayu-mirage span.cm-attribute {
+  color: var(--aqua) !important;
+}
+.cm-s-ayu-mirage .CodeMirror-activeline-background {
+  background: var(--current-line);
+}
+.cm-s-ayu-mirage .CodeMirror-matchingbracket {
+  background: var(--gray);
+  color: var(--bg0) !important;
+}
+.cm-s-ayu-mirage span.cm-builtin {
+  color: var(--orange) !important;
+}
+.cm-s-ayu-mirage span.cm-tag {
+  color: var(--orange) !important;
+}
