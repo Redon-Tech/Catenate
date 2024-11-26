@@ -7,7 +7,7 @@ info:
   description: " A fork of darkenate by JasonHorkles with Catppuccin colors."
   flags: ""
   version: "v2.0.2"
-  target: "beta-A428-2"
+  target: "beta-2024-08"
   author: "Redon Tech / JasonHorkles"
   icon: "assets/icon.png"
   website: "https://github.com/Redon-Tech/Catenate"
